@@ -5,12 +5,12 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['Cornell Quant Research','Deep/Statistical Learning', 'Quantitative Finance', 'Quant Medical Bio Science', '--.- ..- .- -. - .. - .- - .. ...- .'];
+    const strings  = ['Cornell Quant Research','Deep Learning', 'Statistical Learning', 'Quantitative Finance', 'Quant Medical', 'Quant Bio Science', '--.- ..- .- -. - .. - .- - .. ...- .'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
-      typeSpeed: 50,
-      backSpeed: 80,
+      typeSpeed: 40,
+      backSpeed: 90,
       loop: true,
       loopCount: Infinity
     };

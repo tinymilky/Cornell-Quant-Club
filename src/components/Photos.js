@@ -11,70 +11,55 @@ export default class photos extends Component {
             <div className="twelve columns" >
             <h1>Team</h1>
               <Row>
-                <Col sm={4} md={4} lg={4}></Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card 
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Cornell"
-                    description="Engineering phddddd testing the length"
-                  />
-                  </Card>
-                </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px' }}
-                    title="Upenn"
-                    description="CIS"
-                  />
-                  </Card>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs={12} sm={8} md={8} lg={8}>
+                <Col xs={8} sm={6} md={6} lg={6}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="CQ_images/t1.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="UMich"
-                    description="Good"
+                    title="Chao Li"
+                    description="PhD@AEP"
                   />
                   </Card>
                 </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
+                <Col xs={8} sm={6} md={6} lg={6}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo3.jpg" />}
+                    cover={<a href="https://www.aep.cornell.edu/research/grad-students/yandong-li"><img alt="example" src="CQ_images/t2.jpg" /></a>}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="MIT"
-                    description="Best"
+                    title="Yandong Li"
+                    description="PhD@AEP"
                   />
                   </Card>
                 </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
+                <Col xs={8} sm={6} md={6} lg={6}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<a href="http://tinymilky.github.io/"><img alt="example" src="CQ_images/t3.jpg" /></a>}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="Caltech"
-                    description="Second"
+                    title="Hang Zhang"
+                    description="PhD@ECE"
+                  />
+                  </Card>
+                </Col>
+                <Col xs={8} sm={6} md={6} lg={6}>
+                  <Card
+                    hoverable={false}
+                    style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="CQ_images/t4.jpg" />}
+                  >
+                  <Meta style={{ fontSize: '15px'}}
+                    title="Gufeng Yang"
+                    description="MEng@Tech CS"
                   />
                   </Card>
                 </Col>

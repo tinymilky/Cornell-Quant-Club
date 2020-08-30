@@ -9,35 +9,36 @@ export default class photos extends Component {
         <section id="photos" style={{ background: 'white' }}>
           <div className="row" >
             <div className="twelve columns" >
-            <h1>Advisor</h1>
+            <h1>Advisors</h1>
               <Row>
-                <Col sm={4} md={4} lg={4}></Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px' }}
-                    title="Cornell"
-                    description="Engineering"
-                  />
-                  </Card>
-                </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px' }}
-                    title="Cornell Tech"
-                    description="Medical"
-                  />
-                  </Card>
-                </Col>
+              <Col xs={8} sm={6} md={6} lg={6}></Col>
+              <Col xs={8} sm={6} md={6} lg={6}>
+                <Card
+                  hoverable={false}
+                  style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                  bordered={false}
+                  cover={<a href="http://faculty.bscb.cornell.edu/~basu/"><img alt="example" src="CQ_images/t5.jpg" /></a>}
+                >
+                <Meta style={{ fontSize: '15px' }}
+                  title="Basu Sumanta"
+                  description="Assistant Professor of Department of Statistics and Data Science"
+                />
+                </Card>
+              </Col>
+              <Col xs={8} sm={6} md={6} lg={6}>
+                <Card
+                  hoverable={false}
+                  style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                  bordered={false}
+                  cover={<a href="http://mankad-research.hosting.cornell.edu/"><img alt="example" src="CQ_images/t6.jpg" /></a>}
+                >
+                <Meta style={{ fontSize: '15px' }}
+                  title="Shawn Mankad"
+                  description="Assistant Professor of Operations, Technology and Information Management"
+                />
+                </Card>
+              </Col>
+              <Col xs={8} sm={6} md={6} lg={6}></Col>
               </Row>
             </div>
           </div>

@@ -4,21 +4,21 @@ let webData = {
     "addr": "Cornell University",
     "email": "hz459@cornell.edu",
     "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/y-yan",
-          "className":"fa fa-linkedin"
-        },
+        // {
+        //   "name":"linkedin",
+        //   "url":"https://www.linkedin.com/in/y-yan",
+        //   "className":"fa fa-linkedin"
+        // },
         {
           "name":"github",
           "url":"https://github.com/yanym/Cornell-Club",
           "className":"fa fa-github"
         },
-        {
-          "name":"ins",
-          "url":"https://www.instagram.com/vency012/",
-          "className":"fa fa-instagram"
-        }
+        // {
+        //   "name":"ins",
+        //   "url":"https://www.instagram.com/vency012/",
+        //   "className":"fa fa-instagram"
+        // }
       ],
     "mission":[
       {
@@ -27,62 +27,58 @@ let webData = {
     ],
     "portfolio":[
       {
-        "name":"Google",
-        "description":"Google is the best",
-        "content":"The night before his ninety-fifth-birthday party, my father fell while turning around. The night before his ninety-fifth-birthday party, my father fell while turning around. ",
-        "imgurl":"images/Google.jpg",
-        "url": "www.google.com"
+        "name": "Learning to understand the Dialogue during Juror Selection (Voir Dire)",
+        "description": "[Hiring: theory and experiment]",
+        "content": "Although the Supreme Court prohibits discrimination in peremptory challenges based on gender or race, given the fact that the attorneys are allowed to reject several juror candidates through the peremptory challenge without stating any reason, the question whether discrimination is truly eliminated in the voir dire process still remains. In the field of justice studies, it is found that a significant amount of minority jurors questioned if the system is racially fair. We combine statistical models with natural-language-processing techniques to unveil whether juror candidates of different races are faced with questions that are designed/worded differently. We aim to unfold how the interviewer's attitude evolves as the dialogue proceeds. The data are the dialogue transcripts from several serious criminal cases. Participants will be working closely with Yandong Li, under the supervision of Prof. Sumanta Basu and Prof. Martin Wells from the Department of Statistics and Data Science.",
+        "imgurl":"CQ_images/c1.png",
+        "url": "http://www.cornellquant.com"
       },
       {
-        "name":"Facebook",
-        "description":"Facebook is the second ",
-        "content":"The night good a pretty fxk his ninety-fifth-birthday party, my father fell while turning around. The night good a pretty fxk his ninety-fifth-birthday party, my father fell while turning around.",
-        "imgurl":"images/Facebook.jpg",
-        "url": "www.google.com/search?source=hp&ei=IOY0XKOaE5G6tQWrg45Y&q=google&btnK=Google+Search&oq=google&gs_l=psy-ab.3..35i39l2j0i131j0l2j0i131j0l3j0i131.348.2659..8164...0.0..2.1051.5333.2-1j2j1j2j2j1....3..0....1..gws-wiz.....6.Wu_VOGN16UM"
-      },
-      {
-        "name":"Chrome",
-        "description":"Google is the best",
-        "content":"It’s fine whatever you decide.” “Just open the damn door, Christian.” He opens the door and stands back to let me in. I gaze at him once more. I so want to know what’s in here. Taking a deep breath I walk in. And it feels like I’ve time-traveled back to the sixteenth century and the Spanish Inquisition.",  
-        "imgurl":"images/Chrome.jpg",
-        "url": "www.google.com/search?ei=K-Y0XKeuIpLcswWO5piYBA&q=cornell&oq=cornell&gs_l=psy-ab.3..35i39l2j0j0i131j0l6.11648.12286..12921...0.0..0.154.1013.0j7....2..0....1..gws-wiz.......0i71j0i67j0i131i67.H0nh7uTsiGA"
-      },
-      {
-        "name":"Ins",
-        "description":"Ins!",
-        "content":"Nonthing need to say",
-        "imgurl":"images/Ins.jpg",
-        "url": "www.thestreet.com/politics/donald-trump-idiot-google-images-why-14808650"
+        "name":"Automatic crypto-currency trading system",
+        "description": "[Hiring: front-end, back-end and strategy]",
+        "content":"Our automatic trading system consists of three parts, data-fetcher, simulator, and trading-bot. The data-fetcher, implemented in Node.js, fetches data from major crypto-currency exchanges, such as Huobi, Bitfenix, and OKEx and saves data in our data-server. The simulator, implemented in Python, allow us to test and evaluate our trading strategies on the data stored in the data-server. The trading-bot, also implemented in Node.js, generates orders and sends to crypto-currency exchanges.",
+        "imgurl":"CQ_images/c2.gif",
+        "url": "http://www.cornellquant.com"
       }
     ],
     "PastPortfolio":[
       {
-        "name":"Project1",
-        "description":"past is past",
-        "content":"The night after his ninety-fifth-birthday party, my father fell while turning around. ",
-        "imgurl":"images/profilepic1.jpg",
-        "url": "www.google.com"
+        "name":"Variance-reduced Barzilai-Borwein step size for deep neural network training",
+        "description":"",
+        "content":"Direct calculation of the second order gradient, e.g. Newton’s method, is usually computationally expansive. This Barzilai-Borwein (BB) method can approximate the second order gradient with first order terms and therefore increases accuracy and decreases computational effort at the same time. However BB method is designed for batch gradient based method, applying to stochastic gradient scenario is challenging. We investigate stochastic BB method in deep learning and developed a variance-reduced BB method for efficient deep learning training.",
+        "imgurl":"CQ_images/p1.png",
+        "url": "http://www.cornellquant.com"
       },
       {
-        "name":"Project2",
-        "description":"mobileap2p",
-        "content":"We gonna change the world.",
-        "imgurl":"images/profilepic2.jpg",
-        "url": "www.google.com"
+        "name":"Use matrix regression to forecast trading signals in the financial market",
+        "description":"",
+        "content":"Classical regression methods, such as lasso and elastic net, are designed for data in vector form. However, useful information may be veiled under the inherent correlations that can be studied only from matrix-formed data. For example, prices at different time and from different exchanges contains such correlation. Prices of different trading pairs at different time also accommodates another type of correlation. We seek for trading signals by processing matrix-form data. These signals may be ultimately used in practical arbitrage.",
+        "imgurl":"CQ_images/p2.png",
+        "url": "http://www.cornellquant.com"
+      },
+      {
+        "name":"Use text-mining to analyze local governors’ altitude on climate change",
+        "description":"",
+        "content":"Global warming is a statistical fact that everyone is actually encountering. In this project, we have the actual audio transcript from the interview with several local governors in the New York State. We will use statistical method, such as natural language processing (NLP) techniques to inspect their statements and evaluate how well their preparations are and where their pressures come from, faced by the global warming. Participants will be collaborating tightly with Prof. Shawn Mankad at the Johnson Graduate School of Management.",  
+        "imgurl":"CQ_images/p3.png",
+        "url": "http://www.cornellquant.com"
       }
+      // {
+      //   "name":"Blaze: Simplified High Performance Cluster Computing",
+      //   "description":"",
+      //   "content":"MapReduce and its variants have significantly simplified and accelerated the process of developing parallel programs. However, most MapReduce implementations focus on data-intensive tasks while many real-world tasks are compute intensive and their data can fit distributedly into the memory. For these tasks, the speed of MapReduce programs can be much slower than those hand-optimized ones. We present Blaze, a C++ library that makes it easy to develop high performance parallel programs for such compute intensive tasks. At the core of Blaze is a highly-optimized in-memory MapReduce function, which has three main improvements over conventional MapReduce implementations: eager reduction, fast serialization, and special treatment for a small fixed key range. We also offer additional conveniences that make developing parallel programs similar to developing serial programs. These improvements make Blaze an easy-to-use cluster computing library that approaches the speed of hand-optimized parallel code. We apply Blaze to some common data mining tasks, including word frequency count, PageRank, k-means, expectation maximization (Gaussian mixture model), and k-nearest neighbors. Blaze outperforms Apache Spark by more than 10 times on average for these tasks, and the speed of Blaze scales almost linearly with the number of nodes. In addition, Blaze uses only the MapReduce function and 3 utility functions in its implementation while Spark uses almost 30 different parallel primitives in its official implementation.",
+      //   "imgurl":"CQ_images/p1.png",
+      //   "url": "http://www.cornellquant.com"
+      // }
     ],
     "testimonials":[
       {
-        "description":"God's Plan",
-        "name":"Drake"
+        "description":"Cornell Quant Club",
+        "name":"Cornell University"
       },
       {
-        "description":"This is the best Web.",
-        "name":"Yiming"
-      },
-      {
-        "description":"Exactly",
-        "name":"Yan"
+        "description":"Dreams begin here",
+        "name":"Cornell Quant Club"
       }
     ]
   }

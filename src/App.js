@@ -28,8 +28,8 @@ class App extends Component {
         <Photos />
         <AdvisorPhotos />
         <Alumni />
-        <Timeline />
-        <Cooperation />
+        {/* <Timeline /> */}
+        {/* <Cooperation /> */}
         <Testimonials webData={webData}/>
         <ContactUs webData={webData}/>
         <Footer webData={webData}/>
